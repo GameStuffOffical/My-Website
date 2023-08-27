@@ -5,9 +5,11 @@
     list-style-type: none;
     margin: none;
     padding: none;
+    display: flex;
 }
 
-.navBarElem a {
+.navBarElem li a {
     display: block;
     width: 100px;
+    background-color: cornflowerblue;
 }
