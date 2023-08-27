@@ -1,0 +1,41 @@
+* {
+    font-family: Arial;
+    border-radius: 10px;
+    padding: 5px;
+    gap: 5px;
+}
+.wrapper {
+    background-color:black;
+    display: grid;
+}
+div {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.wrapper div {
+    background-color: grey;
+    display: grid;
+
+}
+.wrapper div div {
+    background-color: gold;
+}
+.wrapper div div div {
+    background-color: green;
+}
+.wrapper div div div div {
+    background-color: black;
+}
+.wrapper div div div div div{
+    background-color: grey;
+}
+.wrapper div div div div div div{
+    background-color: gold;
+}
+.wrapper div div div div div div div{
+    background-color: green;
+}
+.wrapper div div div div div div div div{
+    background-color: black;
+    display: none;
+}
