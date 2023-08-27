@@ -2,14 +2,14 @@
     font-family:Arial;
 }
 .navBar {
-    list-style-type: none;
+    list-style-type: none;e
     margin: none;
     padding: none;
     display: flex;
 }
 
-.navBarElem li a {
+.navBarElem li {
     display: block;
-    width: 100px;
     background-color: cornflowerblue;
+    padding: 5px;
 }
